@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myForm</title>
+
+
+    <script>
+        function getFullName(fname) {
+            console.log(fname + " called!!!")
+        }
+    </script>
+</head>
+
+<body>
+    firstName: <input type="text" placeholder="Naam likh">
+    middleName: <input type="text" placeholder="bichka ab">
+    lastName: <input type="text" placeholder="Khan likh ">
+    <input variant="dark" type="button" value="Dabao" onclick="getFullName('Ammu')">
+    <input variant="dark" type="button" value="Dabade" onclick="getFullName('Amer')">
+    <input variant="dark" type="button" value="Dabana" onclick="getFullName('Zaheer')">
+</body>
+
+</html>
